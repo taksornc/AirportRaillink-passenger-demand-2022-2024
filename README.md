@@ -28,6 +28,11 @@ To ensure optimal query performance and scalability, the dataset was structured 
 * Converted data types to integer/text appropriate for optimal storage.
 
 ---
+## insight
+Dynamic Top 3 Ranking, improving analytical flexibility and model organization.
+Built a 2-page interactive Power BI dashboard featuring KPI cards, time-series analysis, weekday/weekend segmentation, filters, and station-level drill-through.
+Generated business insights by identifying a recurring April seasonal decline, recommending targeted promotional campaigns during low-demand periods.
+Discovered that the Top 3 stations (Suvarnabhumi, Phaya Thai, and Makkasan) accounted for 57.03% of total passenger volume (8 stations, 2024), supporting data-driven premium advertising pricing strategies.
 
 ##  DAX Measures & Optimization
 Key measures calculated using DAX include:
@@ -50,7 +55,5 @@ DIVIDE(
     CALCULATE([ปริมาณผู้โดยสารรวม], ALL(DimStation))
 )
 
-Dynamic Top 3 Ranking, improving analytical flexibility and model organization.
-Built a 2-page interactive Power BI dashboard featuring KPI cards, time-series analysis, weekday/weekend segmentation, filters, and station-level drill-through.
-Generated business insights by identifying a recurring April seasonal decline, recommending targeted promotional campaigns during low-demand periods.
-Discovered that the Top 3 stations (Suvarnabhumi, Phaya Thai, and Makkasan) accounted for 57.03% of total passenger volume (8 stations, 2024), supporting data-driven premium advertising pricing strategies.
+
+
